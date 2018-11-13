@@ -55,6 +55,9 @@ private:
 
 public:
 
+	DBSCANCLUSTER();
+	virtual ~DBSCANCLUSTER();
+
 	float stringToFloat(string i){
 		stringstream sf;
 		float score = 0;
